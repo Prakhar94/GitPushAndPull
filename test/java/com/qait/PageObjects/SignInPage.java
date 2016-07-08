@@ -57,7 +57,7 @@ public class SignInPage {
 			public void verifySignIn() throws InterruptedException {
 				
 				enterUserName("Prakhar94");
-				enterPassword("********");
+				enterPassword("Prakhar_47");
 				Thread.sleep(2000);
 				clickOnSignIn();
 //				return getErrorMessage().contains("Incorrect username or password.");

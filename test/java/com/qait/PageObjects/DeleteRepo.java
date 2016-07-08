@@ -49,7 +49,7 @@ public class DeleteRepo {
 //		    currentFile.delete();
 //		}
 //		f.delete();
-		FileUtils.deleteDirectory(new File("/home/prakharkumartiwari/workspace/GitAutomation/NewRepo"));
+		FileUtils.deleteDirectory(new File("/home/prakharkumartiwari/workspace/AutomateGit/NewRepo"));
 		System.out.println("bye");
 	}
 

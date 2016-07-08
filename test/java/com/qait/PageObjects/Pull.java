@@ -18,7 +18,7 @@ public WebDriver driver;
 	}
 	
 	public void pull() throws IOException{
-		ProcessBuilder pb = new ProcessBuilder("/home/prakharkumartiwari/Desktop/Git/GitHub/pull.sh");
+		ProcessBuilder pb = new ProcessBuilder("/home/prakharkumartiwari/workspace/AutomateGit/pull.sh");
 		 Process p = pb.start();
 		 BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
 		 String line = null;

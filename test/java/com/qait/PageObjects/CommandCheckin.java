@@ -21,7 +21,7 @@ public class CommandCheckin {
 	
 	
 	public void runCommand() throws IOException{
-		 ProcessBuilder pb = new ProcessBuilder("/home/prakharkumartiwari/Desktop/Git/GitHub/gitcommands.sh");
+		 ProcessBuilder pb = new ProcessBuilder("/home/prakharkumartiwari/workspace/AutomateGit/push.sh");
 		 Process p = pb.start();
 		 BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
 		 String line = null;

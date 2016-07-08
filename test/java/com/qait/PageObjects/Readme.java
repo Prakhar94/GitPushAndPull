@@ -71,7 +71,7 @@ public class Readme extends Initialiser{
 	}
 	
 	public String readmeText() throws IOException {
-		BufferedReader br = new BufferedReader(new FileReader("/home/prakharkumartiwari/workspace/GitAutomation/NewRepo/README.md"));
+		BufferedReader br = new BufferedReader(new FileReader("/home/prakharkumartiwari/workspace/AutomateGit/NewRepo/README.md"));
 		try {
 		    StringBuilder sb = new StringBuilder();
 		    String line = br.readLine();
