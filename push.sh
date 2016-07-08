@@ -10,7 +10,7 @@ touch readme.txt
 git add readme.txt
 git status
 git commit -m "adding a text file"
-git push https://Prakhar94:Prakhar_47@github.com/Prakhar94/NewRepo.git
+git push https://Prakhar94:"Password"@github.com/Prakhar94/NewRepo.git
 git commit -m "done"
 
 echo "this is done"
